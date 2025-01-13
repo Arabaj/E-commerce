@@ -1,0 +1,39 @@
+@media (max-width: 768px) {
+    .nav-bar {
+      flex-direction: column; /* Stack items */
+      padding: 15px;
+    }
+  
+    .brand,
+    .cart {
+      font-size: 1rem;
+    }
+  
+    .footer-container {
+      flex-direction: column;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    .nav-bar {
+      padding: 10px;
+    }
+  
+    .search-bar input {
+      font-size: 0.8rem;
+    }
+  
+    .footer-container > div {
+      margin: 5px 0;
+    }
+  
+    .footer h3,
+    .footer p,
+    .footer a {
+      font-size: 0.75rem;
+    }
+  
+    .footer-bottom {
+      font-size: 0.6rem;
+    }
+  }

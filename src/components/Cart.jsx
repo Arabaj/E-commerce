@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Cart = ({ cart, setCart }) => {
   return (
     <>
-      <div className="container my-5" style={{ width: "54%" }}>
+      <div className="container my-5">
         {cart.length == 0 ? (
           <>
             <div className="text-center">
@@ -18,7 +18,7 @@ const Cart = ({ cart, setCart }) => {
           cart.map((product) => {
             return (
               <>
-                <div className="card mb-3 my-5" style={{ width: "700px" }}>
+                <div className="card mb-3 my-5" >
                   <div className="row g-0">
                     <div className="col-md-4">
                       <img
